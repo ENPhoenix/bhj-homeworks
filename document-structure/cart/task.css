@@ -3,6 +3,7 @@ body {
 }
 .cart__products {
   display: flex;
+  gap: 10px;
   justify-content: center;
   align-items: center;
 }
@@ -88,4 +89,18 @@ body {
 
 .product-shadow {
   position: absolute;
+}
+
+.cart__product-remove {
+  cursor: pointer;
+  color: #fff;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: rgb(167, 167, 167);
+  border-radius: 5px;
+
+}
+
+.cart__title {
+  font-weight: bold;
 }
